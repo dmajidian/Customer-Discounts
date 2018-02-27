@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <aaglobal_discount_discount translate="title" module="aaglobal_discount">
+                    <title>Discount</title>
+                    <action>adminhtml/discount</action>
+                </aaglobal_discount_discount>
+            </children>
+        </sales>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <sales>
+                        <children>
+                            <aaglobal_discount_discount>
+                                <title>Discount</title>
+                            </aaglobal_discount_discount>
+                        </children>
+                    </sales>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
